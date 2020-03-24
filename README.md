@@ -53,3 +53,7 @@ conda install git numpy scipy pandas matplotlib notebook
 Install the project in development mode by running `python setup.py develop`. If you use notebooks, this will ensure that you can access your modules.
 
 Edit this file to describe your actual project.
+
+This project attempts to address whether the neural code in the auditory thalamus in songbirds can be interpreted in terms of a hierarchical model of sensory processing. The neural recording data is shown in an excel sheet (stim_data.csv) that is interpreted in python through as pandas. The project will answer which class of stimuli (songrip, conspecific, flatrip) produces the most amount of spikes. The id input/UoI is the the ID number in the first column of stim_data and the subsequent return will be sample rate, depth, number of samples, and class of stimuli for each file name. This process usese the read_spike function described in the io.py file.
+
+
