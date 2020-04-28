@@ -14,6 +14,8 @@ Each cell is presented with stimuli from 2-3 classes:
 2) songrip: ripple stimuli with the same modulation spectrum as song (not included for OV birds)
 3) conspecific: natural birdsong from zebra finch
 
+*In order to run this project, insert an individualized directory for "addr" to allow code to access individual computers after downloading aa2 dataset directories and files.
+
 
  Files not used for this project include: "all_stims", "cell_stim_classes.csv", "stim_data.csv"
 
